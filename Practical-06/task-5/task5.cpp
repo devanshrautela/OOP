@@ -7,6 +7,6 @@ int main()
   getline(cin,s);
   getline(cin,r);
   
-  int a=s.compare(r);
+  int a=string.compare(r);
   cout<<a<<endl;
 }
