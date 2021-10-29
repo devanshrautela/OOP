@@ -12,22 +12,23 @@ int main()
  {
    case 1:
       cout<<"year:"<<1900 + ltm->tm_year<<endl;
-      break;
       ch=main();
+      break;
    case 2:
       cout<<"month:"<<1 + ltm->tm_mon<<endl;
+      ch=main();
       break;
-       ch=main();
    case 3:
       cout<<"day:"<<ltm->tm_mday<<endl;
-      break;
-       ch=main();
+     ch=main();
+        break;
     case 4:
        return 0;
        break;
    default:
       cout<<"invalid choice"<<endl;
-      break;
       ch=main();
+      break;
+
  }
 }
