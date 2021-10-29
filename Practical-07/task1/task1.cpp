@@ -5,7 +5,7 @@ int main()
  int ch;
  cout<<"enter the choice :"<<endl<<"1.Year"<<endl<<"2.Month"<<endl<<"3.date"<<endl<<"4.Exit"<<endl;
  cin>>ch;
-    switch(ch){
+   switch(ch){
    case 1:
       cout<<"2021"<<endl;
       ch=main();
