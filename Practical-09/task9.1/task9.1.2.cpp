@@ -35,7 +35,7 @@ int main()
     cout<<endl;
     cout<<"Student details:\n";
     for(i=0;i<n;i++){
-        cout<<"Details of student "<<(i+1)<<":\n";
+        cout<<"Details of student "<<(1+i)<<":\n";
         std[i].putDetails();
     }
     cout<<"Total number of students in college "<<n;
