@@ -29,13 +29,19 @@ int main()
     cout<<"Enter total number of students: ";
     cin>>n;
     for(i=0;i<n;i++){
-        cout<<"Enter details of student "<<i<<":\n";
+        int series=0;
+        series=i;
+        ++series;
+        cout<<"Enter details of student "<<series<<":\n";
         std[i].getDetails();
     }     
     cout<<endl;
     cout<<"Student details:\n";
     for(i=0;i<n;i++){
-        cout<<"Details of student "<<(1+i)<<":\n";
+    int series=0;
+    series=i;
+    ++series;
+        cout<<"Details of student "<<series<<":\n";
         std[i].putDetails();
     }
     cout<<"Total number of students in college "<<n;
