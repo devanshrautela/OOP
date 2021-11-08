@@ -16,7 +16,7 @@ public:
 
 int main()
 {
-    Area::print_area(7);
+    Area::print_area(6);
     Area::print_area(7,8);
     return 0;
 }   
