@@ -41,7 +41,7 @@ int main(){
     d.display1();
     d.display2();
     d.display3();
-    //d.display();
+    d.display();
     d.k = 10;
     return 0;
 }
